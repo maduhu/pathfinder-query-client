@@ -1,6 +1,6 @@
 {
   "name": "@leveloneproject/pathfinder-query-client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Library for querying PathFinder DNS records.",
   "main": "src/index.js",
   "license": "SEE LICENSE IN LICENSE",
