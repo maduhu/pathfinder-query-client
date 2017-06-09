@@ -2,7 +2,13 @@
 
 const Query = require('../src')
 
-const phoneNumber = '+639019991234'
+const args = process.argv.slice(2)
+if (args.length === 0) {
+  console.log('You must enter a phone number to query!')
+  process.exit(1)
+}
+
+const phoneNumber = args[0]
 
 const client = Query.createClient({ address: '156.154.59.228' })
 client.request(phoneNumber)
