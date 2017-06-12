@@ -242,7 +242,7 @@ Test('Client', clientTest => {
           test.end()
         })
         .catch(Errors.InvalidPhoneNumberError, err => {
-          test.equal(err.message, 'The telephone number is not valid in Pathfinder')
+          test.equal(err.message, 'The telephone number is not valid in PathFinder')
           test.notOk(Result.fromDnsResponse.called)
           test.end()
         })
@@ -274,7 +274,7 @@ Test('Client', clientTest => {
           test.end()
         })
         .catch(Errors.UnauthorizedError, err => {
-          test.equal(err.message, 'The source IP is not authorized to access Pathfinder')
+          test.equal(err.message, 'The source IP is not authorized to access PathFinder')
           test.notOk(Result.fromDnsResponse.called)
           test.end()
         })
