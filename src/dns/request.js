@@ -20,6 +20,6 @@ Request.prototype.write = function (bufferSize) {
   return buff.slice(0, len)
 }
 
-exports.create = (domain, recordType) => {
-  return new Request(domain, recordType)
+exports.create = (question) => {
+  return new Request(question)
 }
