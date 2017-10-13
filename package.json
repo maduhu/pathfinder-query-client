@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Library for querying PathFinder DNS records.",
   "main": "src/index.js",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "CC-BY-SA-4.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LevelOneProject/pathfinder-query-client.git"
